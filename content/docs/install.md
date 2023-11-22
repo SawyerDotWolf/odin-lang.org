@@ -32,7 +32,7 @@ The following platform-specific steps are necessary:
 - Windows
     * Prerequisite C++ Built tools (Visual Studio IDE w/ Desktop Development with C++)
     * Note: If you have `Visual Studio Community`, make sure `Desktop Development with C++` is installed.
-    * If you have no tools, no problem, Do these:
+    * If you have no tools, no problem, do these:
         *  Terminal: `winget install Microsoft.VisualStudio.2022.BuildTools`
         *  Visual Studio Install: Press Modify then check `Desktop Development with C++`
         *  Note: This is required for linker functionality
