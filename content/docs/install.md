@@ -30,7 +30,9 @@ Odin supports x86-64/AMD64 on Windows, Linux and macOS, and ARM64 on macOS. Odin
 The following platform-specific steps are necessary:
 
 - Windows
-    * Prerequisite C++ Built tools
+    * Prerequisite C++ Built tools (Visual Studio IDE w/ Desktop Development with C++)
+    * Note: If you have `Visual Studio Community`, make sure `Desktop Development with C++` is installed.
+    * If you have no tools, no problem, Do these:
         *  Terminal: `winget install Microsoft.VisualStudio.2022.BuildTools`
         *  Visual Studio Install: Press Modify then check `Desktop Development with C++`
         *  Note: This is required for linker functionality
